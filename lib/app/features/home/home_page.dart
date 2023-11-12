@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 import '../../app.dart';
 
@@ -195,7 +196,7 @@ class _HomePageState extends State<HomePage> {
                 child: SizedBox(
                   width: 200,
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () => launchUrlString('https://google.com.br'),
                     child: const Text('Política de Privacidade'),
                   ),
                 ),

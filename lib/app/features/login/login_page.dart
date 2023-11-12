@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 import '../../app.dart';
 
@@ -49,7 +50,7 @@ class LoginPage extends StatelessWidget {
             ),
             const Spacer(),
             TextButton(
-              onPressed: () {},
+              onPressed: () => launchUrlString('https://google.com.br'),
               child: const Text('Política de Privacidade'),
             ),
           ],
