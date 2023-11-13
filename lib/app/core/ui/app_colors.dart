@@ -7,4 +7,5 @@ sealed class AppColors {
   static const Color white = Color(0xFFFFFFFF);
   static const Color black = Color(0xFF000000);
   static const Color error = Color(0xFFC33938);
+  static const Color errorLight = Color.fromARGB(255, 244, 108, 108);
 }

@@ -6,11 +6,18 @@ class AppTextField extends StatelessWidget {
   final String label;
   final IconData? icon;
   final String? hintText;
+  final String? Function(String?)? validator;
+  final TextEditingController? controller;
+  final bool obscureText;
+
   const AppTextField({
     super.key,
     required this.label,
     this.icon,
     this.hintText,
+    this.validator,
+    this.controller,
+    this.obscureText = false,
   });
 
   @override
@@ -28,6 +35,9 @@ class AppTextField extends StatelessWidget {
         ),
         const SizedBox(height: 4),
         TextFormField(
+          obscureText: false,
+          controller: controller,
+          validator: validator,
           decoration: InputDecoration(
             hintText: hintText,
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:target_challenge/app/routes/routes.dart';
 
 import 'app.dart';
 
@@ -9,16 +10,11 @@ class TargetChallengeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //Todo: Rename App
       title: 'Target Challenge',
       debugShowCheckedModeBanner: false,
       theme: ThemeConfig.theme,
       initialRoute: '/',
-      routes: {
-        '/': (context) => const SplashPage(),
-        '/login': (context) => const LoginPage(),
-        '/home': (context) => const HomePage(),
-      },
+      routes: AppRoutes.routes,
     );
   }
 }

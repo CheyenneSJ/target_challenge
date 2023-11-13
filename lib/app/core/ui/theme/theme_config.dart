@@ -16,6 +16,9 @@ class ThemeConfig {
       ),
       filled: true,
       fillColor: AppColors.white,
+      errorStyle: TextStyle(
+        color: AppColors.errorLight,
+      ),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
