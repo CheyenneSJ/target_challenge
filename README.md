@@ -2,8 +2,10 @@
 
 Este é um projeto desenvolvido como um teste para a empresa Target avaliar as competências de desenvolvimento com o framework Fluter.
 
-Para fazer o login use:
+### Para fazer o login use:
+
 Usuário: target
+
 Senha: 123456
 
 
