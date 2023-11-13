@@ -1,20 +1,43 @@
-![target_app](https://github.com/CheyenneSJ/target_challenge/assets/103771613/f5e0d4e1-4a02-4b0c-8fd1-bf50a1611819)
+# Target App - Avaliação
+
+Este é um projeto desenvolvido no ãmbito do desafio para a Target, avaliar as competências de desenvolvimento com Fluter.
+
+Para fazer o login use:
+Usuário: target
+Senha: 123456
+
+![target_app](https://github.com/CheyenneSJ/target_challenge/assets/103771613/3d5e5092-cb17-455a-9f2c-3cf0a6008e5d)
 
 
-# target_challenge
+# Objetivo:
 
-A new Flutter project.
+O objetivo dessse desafio é criar uma aplicação que tenha uma tela de login, com autenticação de usuário e senha, navegando para a tela de captura de informações.
+As infomações digitadas pelo usuário em um card, devem ser salvas, editadas e ter a opcão de excluir.Essas informações não podem ser perdidas ao fechar a aplicação.
 
-## Getting Started
+## Instruções de execução:
 
-This project is a starting point for a Flutter application.
+Esse aplicativo foi criado usando o Flutter versão 3.13.9 Para executá-lo, você precisa ter o Flutter versão 3.0.0 ou superior e o dart versão 3.0.6 ou superior instalados. Clone esse repósitorio em sua máquina local. Certifique-se de ter o Flutter SDK instalado em sua máquina.
 
-A few resources to get you started if this is your first Flutter project:
+## Abrir o projeto e executar o comando:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-    
+O MobX gera arquivos: arquivo.g.dart
+
+Em caso de falta desses arquivos será necessário executar o seguinte comando no terminal:
+
+dart run build_runner  
+
+## Características Implementadas:
+
+### MobX: 
+Foi utilizado para o gerenciamento de estado e atualização da interface do usuário.
+
+### Get It:
+Biblioteca para injeção de dependências, para organizar e acessar serviços e instâncias de forma global em toda a aplicação.
+
+### Shared Preferences:
+Biblioteca para Flutter que facilita o armazenamento persistente de pequenos dados chave-valor no dispositivo. É usada para armazenar configurações do aplicativo e outras informações leves.
+
+### ValidatorLess:
+Biblioteca para validação de formulários em Flutter. Ela permite definir validadores de forma concisa e fácil, simplificando a validação de entrada do usuário em formulários.
