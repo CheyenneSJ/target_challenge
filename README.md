@@ -1,10 +1,11 @@
 # Target App - Avaliação
 
-Este é um projeto desenvolvido no ãmbito do desafio para a Target, avaliar as competências de desenvolvimento com Fluter.
+Este é um projeto desenvolvido como um teste para a empresa Target avaliar as competências de desenvolvimento com o framework Fluter.
 
 Para fazer o login use:
 Usuário: target
 Senha: 123456
+
 
 ![target_app](https://github.com/CheyenneSJ/target_challenge/assets/103771613/3d5e5092-cb17-455a-9f2c-3cf0a6008e5d)
 
@@ -26,7 +27,7 @@ O MobX gera arquivos: arquivo.g.dart
 
 Em caso de falta desses arquivos será necessário executar o seguinte comando no terminal:
 
-dart run build_runner  
+dart run build_runner build
 
 ## Características Implementadas:
 
