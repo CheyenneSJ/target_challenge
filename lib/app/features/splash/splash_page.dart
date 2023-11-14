@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:target_challenge/app/core/ui/app_assets.dart';
+
+import '../../app.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

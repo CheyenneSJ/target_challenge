@@ -1,5 +1,6 @@
 import 'package:mobx/mobx.dart';
-import 'package:target_challenge/app/core/core.dart';
+
+import '../../app.dart';
 part 'home_controller.g.dart';
 
 class HomeController = HomeControllerBase with _$HomeController;

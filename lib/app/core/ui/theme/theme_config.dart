@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:target_challenge/app/core/ui/ui.dart';
+
+import '../../../app.dart';
 
 class ThemeConfig {
   ThemeConfig._();
@@ -16,13 +17,15 @@ class ThemeConfig {
       ),
       filled: true,
       fillColor: AppColors.white,
-      errorStyle: TextStyle(
+      errorStyle: const TextStyle(
         color: AppColors.errorLight,
       ),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(48)),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(48),
+        ),
         backgroundColor: AppColors.green,
       ),
     ),

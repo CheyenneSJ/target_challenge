@@ -29,9 +29,10 @@ class AppTextField extends StatelessWidget {
         Text(
           label,
           style: const TextStyle(
-              color: AppColors.white,
-              fontWeight: FontWeight.w300,
-              fontSize: 14),
+            color: AppColors.white,
+            fontWeight: FontWeight.w300,
+            fontSize: 14,
+          ),
         ),
         const SizedBox(height: 4),
         TextFormField(
@@ -40,10 +41,8 @@ class AppTextField extends StatelessWidget {
           validator: validator,
           decoration: InputDecoration(
             hintText: hintText,
-
             prefixIcon: icon != null ? Icon(icon) : null,
             isDense: true,
-            // errorText: 'Erro',
           ),
         ),
       ],

@@ -24,16 +24,11 @@ class _LoginPageState extends State<LoginPage> {
     reaction((_) => controller.currentState, (LoginState state) {
       switch (state) {
         case LoginState.success:
-          Navigator.of(context).pushReplacementNamed('/home');
-
+          Navigator.of(context).pushNamed('/home');
           break;
         case LoginState.error:
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('Erro, usuário e senha estão errados.'),
-            ),
-          );
-
+          ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+              content: Text('Erro, usuário e senha estão errados.')));
         case LoginState.initial:
         case LoginState.loading:
       }
@@ -108,7 +103,7 @@ class _LoginPageState extends State<LoginPage> {
                                 password: passwordEc.text,
                               );
                             } else {
-                              print('Invalid');
+                              return;
                             }
                           },
                           child: controller.currentState == LoginState.loading

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:target_challenge/app/routes/routes.dart';
 
 import 'app.dart';
 
-//Todo: Rename App
 class TargetChallengeApp extends StatelessWidget {
   const TargetChallengeApp({super.key});
 
