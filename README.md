@@ -31,6 +31,11 @@ Em caso de falta desses arquivos será necessário executar o seguinte comando n
 
 dart run build_runner build
 
+### Rodar aplicativo como usuário: 
+Caso queira testar como usuário final ou QA, baixe e instale o arquivo abaixo em um dispositivo android.
+
+Baixar o arquivo - https://drive.google.com/file/d/1ECrjxGW-tRe5MpHfzM4bhENO6m_noHME/view?usp=sharing
+
 ## Características Implementadas:
 
 ### MobX: 

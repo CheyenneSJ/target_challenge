@@ -28,7 +28,7 @@ class _LoginPageState extends State<LoginPage> {
           break;
         case LoginState.error:
           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-              content: Text('Erro, usuário e senha estão errados.')));
+              content: Text('Erro, usuário ou senha incorretos.')));
         case LoginState.initial:
         case LoginState.loading:
       }
