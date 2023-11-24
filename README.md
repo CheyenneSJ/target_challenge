@@ -1,6 +1,6 @@
 # Target App - Avaliação
 
-Este é um projeto desenvolvido como um teste para a empresa Target avaliar as competências de desenvolvimento com o framework Fluter.
+Este é um projeto desenvolvido como um teste para a empresa Target avaliar as competências de desenvolvimento com o framework Flutter.
 
 ### Para fazer o login use:
 
